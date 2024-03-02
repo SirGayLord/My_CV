@@ -1,0 +1,84 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+* {
+  color: #333333;
+}
+
+h1 {
+  color: #2f80ed;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: #333333;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: #2f80ed;
+}
+
+a {
+  color: #2f80ed;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: flex;
+}
+&__type {
+  min-width: 90px;
+}
+
+.contact,
+.description {
+    display: block; /* Устанавливаем блочный режим отображения */
+    margin-bottom: 10px; /* Добавляем отступ между блоками */
+}
+
+.description p {
+  display: block; /* Устанавливаем блочный режим отображения для каждого пункта */
+  margin: 5px 0; /* Добавляем небольшой верхний и нижний отступ между пунктами */
+}
+
+.experience {
+  display: flex;
+  margin-bottom: 2em;
+  experience_date {
+    min-width: 185px;
+    margin-bottom: 1em;
+  }
+  experience_name {
+    font-weight: bold;
+  }
+}
+
+.experience {
+  display: flex; /* Располагаем элементы в строку */
+}
+
+.experience_item {
+  display: flex; /* Располагаем элементы в строку внутри блока .experience */
+  padding: 10px; /* Добавляем отступы между элементами */
+}
+
+.experience_date {
+  flex: 1; /* Распределение места между элементами внутри блока .experience_item */
+  margin-right: 10px; /* Добавляем отступ справа */
+}
+
+.experience_description {
+  flex: 2; /* Распределение места между элементами внутри блока .experience_item */
+}
+
+.experience_name {
+  font-weight: bold; /* Делаем шрифт жирным */
+}
+
